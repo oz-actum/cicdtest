@@ -13,5 +13,4 @@
         - uses: actions/checkout@v3
         - run: |
             echo "Checking out code"
-            sudo apt install sl
-            sl
+            ${ { secrets.GITHUB_TOKEN } }
