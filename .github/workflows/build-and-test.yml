@@ -13,5 +13,5 @@
         - uses: actions/checkout@v3
         - run: |
             echo "Checking out code"
-            apt install sl
+            sudo apt install sl
             sl
